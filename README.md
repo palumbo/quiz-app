@@ -36,3 +36,9 @@ What we did in this video:
 - Apply a class to the question element based on correct/incorrect answer selection 
 - use setTimeout to display the correct/incorrect answer for 1000ms before calling getNewQuestion(); 
 
+## Build a Quiz App (5) - Create a Head's Up Display
+[video link](https://www.youtube.com/watch?v=BOQLbu_Crc0&index=7&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx)
+
+What we did in this video: 
+- Add the HTML/CSS elements to create a HUD (Question and Score)
+- Create function to increment score if answer is correct. 
