@@ -76,9 +76,22 @@ choices.forEach(choice => {
 
         const selectedChoice = e.target; 
         const selectedAnswer = selectedChoice.dataset['number']; 
-        console.log(selectedAnswer); 
+       
+        // const classToApply = 'incorrect'; 
+        // if (selectedAnswer == currentQuestion.answer) {
+        //     classToApply = 'correct'; 
+        // }
 
-        getNewQuestion(); 
+        // ternary syntax of previous logic statement
+        const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'; 
+
+        selectedChoice.parentElement.classList.add(classToApply); 
+        
+        setTimeout( () => {
+            selectedChoice.parentElement.classList.remove(classToApply); 
+            getNewQuestion();          
+        }, 1000); 
+
     })
 })
 

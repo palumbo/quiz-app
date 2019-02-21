@@ -28,3 +28,11 @@ This section uses the [JavaScript Spread syntax](https://developer.mozilla.org/e
 ![](https://www.dropbox.com/s/b92c1jykn7my216/Screenshot%202019-02-21%2014.01.44.jpg?raw=1)
 
 This also uses the [splice](https://www.w3schools.com/jsref/jsref_splice.asp) method (which I've used before, but it's been a while) which adds/removes items to/from an array. 
+
+## Build a Quiz App (4) - Display Feedback for Correct/Incorrect Answers
+[video link](https://www.youtube.com/watch?v=_LYxkClHnV0&index=6&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx)
+
+What we did in this video: 
+- Apply a class to the question element based on correct/incorrect answer selection 
+- use setTimeout to display the correct/incorrect answer for 1000ms before calling getNewQuestion(); 
+
