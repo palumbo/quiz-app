@@ -33,5 +33,5 @@ saveHighScore = e => {
     highScores.splice(MAX_HIGH_SCORES); // only keeps top 5 scores 
 
     localStorage.setItem('highscores', JSON.stringify(highScores)); 
-    window.location.assign('/'); 
+    window.location.assign('/index.html'); 
 }; 

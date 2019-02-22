@@ -71,3 +71,10 @@ To look at local storage in Chrome, go to Application tab > Local Storage
 
 What we did in this video: 
 - Figure out how to sort high scores, limit scores to top 5, and write them to local storage
+
+## Build a Quiz App (9) - Load and Display High Scores from Local Storage
+[video link](https://www.youtube.com/watch?v=jfOv18lCMmw&index=11&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx)
+
+- Creates `highscores.html`, `highscores.css`, and `highscores.js` pages
+- Pulls in high scores from local storage using `const highScores = JSON.parse(localStorage.getItem('highscores')) || [];`
+- Use JS [array map()](https://www.w3schools.com/jsref/jsref_map.asp) to convert the returned array from local storage to elements for an HTML list 
