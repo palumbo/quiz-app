@@ -52,3 +52,17 @@ What we did in this video:
 - The progress bar is filled in by adjusting the width of inner div using rogressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`; 
 
 ![](https://www.dropbox.com/s/gsc8giol02227wy/Screenshot%202019-02-21%2018.12.31.jpg?raw=1)
+
+## Build a Quiz App (7) - Create and Style the End Page
+[video link](https://www.youtube.com/watch?v=o3MF_JmQxYg&index=9&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx)
+
+What we did in this video: 
+- Created `end.html` and `end.js` files 
+- Added CSS for forms 
+- Added function to `end.js` that checks for a value in the username field to disable to the save button
+- Saves player's score to local storage `localStorage.setItem("mostRecentScore", score);`
+
+To look at local storage in Chrome, go to Application tab > Local Storage
+
+![](https://www.dropbox.com/s/ry7n369eudga1pv/Screenshot%202019-02-21%2019.37.04.jpg?raw=1)
+
