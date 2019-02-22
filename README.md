@@ -66,3 +66,8 @@ To look at local storage in Chrome, go to Application tab > Local Storage
 
 ![](https://www.dropbox.com/s/ry7n369eudga1pv/Screenshot%202019-02-21%2019.37.04.jpg?raw=1)
 
+## Build a Quiz App (8) - Save High Scores in Local Storage
+[video link](https://www.youtube.com/watch?v=DFhmNLKwwGw&index=10&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx)
+
+What we did in this video: 
+- Figure out how to sort high scores, limit scores to top 5, and write them to local storage
