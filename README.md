@@ -42,3 +42,11 @@ What we did in this video:
 What we did in this video: 
 - Add the HTML/CSS elements to create a HUD (Question and Score)
 - Create function to increment score if answer is correct. 
+
+## Build a Quiz App (6) - Create a Progress Bar
+[video link](https://www.youtube.com/watch?v=4bctmtuZVcM&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=8)
+
+What we did in this video: 
+- Removed old HTML element showing question numbers
+- Added 2 <div>s, one for the outline of the progress bar, one for the progress bar itself
+- The progress bar is 
