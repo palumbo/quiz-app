@@ -49,4 +49,4 @@ What we did in this video:
 What we did in this video: 
 - Removed old HTML element showing question numbers
 - Added 2 <div>s, one for the outline of the progress bar, one for the progress bar itself
-- The progress bar is 
+- The progress bar is filled in by adjusting the width of inner div using rogressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`; 
