@@ -95,3 +95,18 @@ To make this a usble JSON response I use the following code:
 
 And here's what the final code looks like to pull questions from `questions.json`, which also has a .catch to handle any errors. It also moves the `startGame()` function to be called after the questions are loaded. 
 ![](https://www.dropbox.com/s/d8er98o06cmdq4k/Screenshot%202019-02-23%2009.45.04.jpg?raw=1)
+
+## Build a Quiz App (11) - Fetch API to Load Questions API
+[video link](https://www.youtube.com/watch?v=3aKOQn2NPFs&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=13)
+
+Uses [Open Trivia DB API](https://opentdb.com/api_config.php) to pull questions.
+
+Configuring questions
+![configuring questions](https://www.dropbox.com/s/pb0ubtma4z49jpc/Screenshot%202019-02-23%2010.08.38.jpg?raw=1)
+
+Side note: I installed [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa/related?hl=en) into Chrome to be able to view the returned JSON in a cleaner format. 
+
+The format in which questions are returned from Open Trivia DB is not the format we use in our app. So we're going to use a map function to clean it up. 
+
+This is what that section of code looks like now: 
+![](https://www.dropbox.com/s/9jifsintdhvrdgp/Screenshot%202019-02-23%2010.27.30.jpg?raw=1)
