@@ -78,3 +78,17 @@ What we did in this video:
 - Creates `highscores.html`, `highscores.css`, and `highscores.js` pages
 - Pulls in high scores from local storage using `const highScores = JSON.parse(localStorage.getItem('highscores')) || [];`
 - Use JS [array map()](https://www.w3schools.com/jsref/jsref_map.asp) to convert the returned array from local storage to elements for an HTML list 
+
+## Build a Quiz App (10) - Fetch API to Load Local Questions
+[video link](https://www.youtube.com/watch?v=jK5zzSA2JHI&index=12&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx)
+
+- Move hard coded questions from `game.js` to `questions.json`
+
+Use this code pull pull questions from `questions.json` and display them in the console: 
+![](https://www.dropbox.com/s/75zg5fob6c3d3am/Screenshot%202019-02-23%2009.30.56.jpg?raw=1)
+
+When I do that, I get an HTTP response 200: 
+![](https://www.dropbox.com/s/cr57ot2095bqasy/Screenshot%202019-02-23%2009.36.00.jpg?raw=1)
+
+To make this a usble JSON response I use the following code: 
+![](https://www.dropbox.com/s/rll8ti1ho7ah1xn/Screenshot%202019-02-23%2009.37.12.jpg?raw=1)
