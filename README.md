@@ -121,4 +121,4 @@ This was taken from [w3schools | CSS Loader](https://www.w3schools.com/howto/how
 
 'game.js' is modififed so where the loader is removed and the game content is revealed upon the start of the game (once the questions have loaded); 
 
-!(https://www.dropbox.com/s/flod3xq6yrpyvw2/Screenshot%202019-02-23%2017.01.47.jpg?raw=1)
+![](https://www.dropbox.com/s/flod3xq6yrpyvw2/Screenshot%202019-02-23%2017.01.47.jpg?raw=1)
