@@ -110,3 +110,15 @@ The format in which questions are returned from Open Trivia DB is not the format
 
 This is what that section of code looks like now: 
 ![](https://www.dropbox.com/s/9jifsintdhvrdgp/Screenshot%202019-02-23%2010.27.30.jpg?raw=1)
+
+## Build a Quiz App (12) - Create a Spinning Loader
+[video link](https://www.youtube.com/watch?v=RQRTPi6Z7yY&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=14)
+
+Now that we're pulling questions from an API, there is a moment when `game.html` loads that it shows the default text. This section will resolve that issue by adding a loader. 
+
+Creates a new HTML element called `<div id="loader"></div>` in which we use a CSS animation to create a spinning circle. 
+This was taken from [w3schools | CSS Loader](https://www.w3schools.com/howto/howto_css_loader.asp)
+
+'game.js' is modififed so where the loader is removed and the game content is revealed upon the start of the game (once the questions have loaded); 
+
+~[](https://www.dropbox.com/s/flod3xq6yrpyvw2/Screenshot%202019-02-23%2017.01.47.jpg?raw=1)
