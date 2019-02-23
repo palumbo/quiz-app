@@ -92,3 +92,6 @@ When I do that, I get an HTTP response 200:
 
 To make this a usble JSON response I use the following code: 
 ![](https://www.dropbox.com/s/rll8ti1ho7ah1xn/Screenshot%202019-02-23%2009.37.12.jpg?raw=1)
+
+And here's what the final code looks like to pull questions from `questions.json`, which also has a .catch to handle any errors. It also moves the `startGame()` function to be called after the questions are loaded. 
+![](https://www.dropbox.com/s/d8er98o06cmdq4k/Screenshot%202019-02-23%2009.45.04.jpg?raw=1)
